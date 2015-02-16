@@ -24,8 +24,14 @@ Only basic information in console:
 
 
 Save full YSlow result to file:
-  || phantomjs yslow.js --info grade --format tap --threshold http://example.com  > yslow-report-`date +%d-%m-%y`.txt  
+  `` phantomjs yslow.js --info grade --format tap --threshold http://example.com  > yslow-report-`date +%d-%m-%y`.txt  ``
 
 Check website performance in different resolution:
   `` phantomjs --load-plugins=yes yslow.js -vp 800x600 http://example.com ``
 
+
+Jenkins integration
+
+Once you have Jenkins, PhantomJS and YSlow for PhantomJS installed and working properly, just add the following shell command into your building process:
+
+| ``phantomjs /tmp/yslow.js -i grade -threshold "B" -f junit http://built-page-here > yslow.xml``
