@@ -34,4 +34,4 @@ Jenkins integration
 
 Once you have Jenkins, PhantomJS and YSlow for PhantomJS installed and working properly, just add the following shell command into your building process:
 
-| ``phantomjs /tmp/yslow.js -i grade -threshold "B" -f junit http://built-page-here > yslow.xml``
+  ``phantomjs /tmp/yslow.js -i grade -threshold "B" -f junit http://built-page-here > yslow.xml``
