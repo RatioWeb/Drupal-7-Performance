@@ -5,6 +5,9 @@ Network Monitoring Tools
 --------------
 
  `` sudo apt-get install phanthomjs ``
+ 
+For other operating systems, check this link:
+ http://phantomjs.org/download.html
 
 
 ## Test page load speed
