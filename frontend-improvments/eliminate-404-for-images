@@ -1,0 +1,3 @@
+<FilesMatch "\.(png|gif|jpe?g|s?html?|css|js|cgi|ico|svg|swf|flv|dll)$">
+ErrorDocument 404 default
+</FilesMatch>
