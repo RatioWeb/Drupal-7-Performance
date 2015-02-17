@@ -1,4 +1,4 @@
-#
+# Httpd config.
 # KeepAlive: Whether or not to allow persistent connections (more than
 # one request per connection). Set to "Off" to deactivate.
 #
@@ -16,3 +16,8 @@ MaxKeepAliveRequests 100
 # same client on the same connection.
 #
 KeepAliveTimeout 100
+
+
+
+# in .htaccess
+<ifModule mod_headers.c> Header set Connection keep-alive </ifModule>
