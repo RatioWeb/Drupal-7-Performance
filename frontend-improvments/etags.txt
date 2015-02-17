@@ -1,0 +1,2 @@
+# Disable ETags.
+FileETag None

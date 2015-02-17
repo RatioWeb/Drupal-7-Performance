@@ -1,0 +1,4 @@
+# If enebled mod_deflate gzip components
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/css application/x-javascript application/javascript text/plain text/html text/xml application/xml
+</IfModule>
