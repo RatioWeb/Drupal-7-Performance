@@ -7,7 +7,7 @@ Scope of training:
 
 ##Day 1:
   Instalacja Narzędzi do profilowania PHP - Back-end (Tools for profiling Back-end)   
-  Testowanie wydajności pod obciążeniem -jMeter (Performance testing under load)  
+  Testowanie wydajności pod obciążeniem - jMeter (Performance testing under load)  
   Narzędzia do badania wydajności Front-end - (Tools for performance test on Front-end)  
   Debuggowanie/Profilowanie JavaScript (Debugging and profiling of JavaScript)  
 
